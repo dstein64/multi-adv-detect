@@ -1,7 +1,7 @@
-# Measuring the Contribution of Multiple Models in Detecting Adversarial Examples
+# Measuring the Contribution of Multiple Models in Detecting Adversarial Instances
 
 This repository contains the code for *Measuring the Contribution of Multiple Models in Detecting
-Adversarial Examples*.
+Adversarial Instances*.
 
 <div align="center">
  <img src="https://github.com/dstein64/media/blob/main/multi-adv-detect/illustration.svg?raw=true" width="560"/>
