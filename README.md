@@ -1,4 +1,4 @@
-# Measuring the Contribution of Multiple Models in Detecting Adversarial Instances
+# Measuring the Contribution of Multiple Model Representations in Detecting Adversarial Instances
 
 This repository contains the code for [Measuring the Contribution of Multiple Model Representations
 in Detecting Adversarial Instances](https://arxiv.org/abs/2111.07035).
