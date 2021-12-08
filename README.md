@@ -1,7 +1,7 @@
 # Measuring the Contribution of Multiple Model Representations in Detecting Adversarial Instances
 
 This repository contains the code for [Measuring the Contribution of Multiple Model Representations
-in Detecting Adversarial Instances](https://arxiv.org/abs/2111.07035).
+in Detecting Adversarial Instances](https://openreview.net/forum?id=LGlhzn1ZJl).
 
 <div align="center">
  <img src="https://github.com/dstein64/media/blob/main/multi-adv-detect/illustration.svg?raw=true" width="560"/>
@@ -106,12 +106,12 @@ python3 src/plot.py
 ### Citation
 
 ```
-@misc{steinberg2021measuring,
-      title={Measuring the Contribution of Multiple Model Representations in Detecting Adversarial Instances}, 
-      author={Daniel Steinberg and Paul Munro},
-      year={2021},
-      eprint={2111.07035},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{
+    steinberg2022measuring,
+    title={Measuring the Contribution of Multiple Model Representations in Detecting Adversarial Instances},
+    author={Daniel Steinberg and Paul Munro},
+    booktitle={The AAAI-22 Workshop on Adversarial Machine Learning and Beyond},
+    year={2022},
+    url={https://openreview.net/forum?id=LGlhzn1ZJl}
 }
 ```
