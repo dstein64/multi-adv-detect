@@ -1,5 +1,4 @@
 import argparse
-from distutils.spawn import find_executable
 import os
 import shutil
 import subprocess
@@ -86,7 +85,7 @@ def plot_model_wise(outdir, df_control, df_treatment):
     fig.subplots_adjust(left=0.16, top=0.94)
     fig_path = os.path.join(outdir, 'model_wise_plot.pdf')
     fig.savefig(fig_path)
-    if find_executable('pdfcrop'):
+    if shutil.which('pdfcrop'):
         with tempfile.TemporaryDirectory() as tmp:
             cropped_path = os.path.join(tmp, 'cropped.pdf')
             subprocess.run(['pdfcrop', fig_path, cropped_path])
@@ -158,7 +157,7 @@ def plot_unit_wise(outdir, df_control, df_treatment):
     fig.subplots_adjust(left=0.16, top=0.94)
     fig_path = os.path.join(outdir, 'unit_wise_plot.pdf')
     fig.savefig(fig_path)
-    if find_executable('pdfcrop'):
+    if shutil.which('pdfcrop'):
         with tempfile.TemporaryDirectory() as tmp:
             cropped_path = os.path.join(tmp, 'cropped.pdf')
             subprocess.run(['pdfcrop', fig_path, cropped_path])
