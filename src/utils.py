@@ -38,7 +38,7 @@ def get_devices():
 
 
 def cifar10_classes(root='data'):
-    return torchvision.datasets.CIFAR10(root=root).classes
+    return torchvision.datasets.CIFAR10(root=root, download=True).classes
 
 
 def cifar10_loader(batch_size=128, train=True, num_workers=0, root='data', shuffle=True):
