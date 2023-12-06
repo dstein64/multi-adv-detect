@@ -128,7 +128,7 @@ def plot_unit_wise(outdir, df_control, df_treatment):
             # Keep x labels only for bottom row
             if source_idx != len(ATTACKS) - 1:
                 ax.set_xticklabels([])
-            # Keep y labels and ticks for only left row
+            # Keep y labels only for left column
             if target_idx != 0:
                 ax.set_yticklabels([])
     # Add x-axis label to bottom row
